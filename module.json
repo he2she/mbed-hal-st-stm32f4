@@ -1,6 +1,6 @@
 {
   "name": "mbed-hal-st-stm32f4",
-  "version": "1.3.5",
+  "version": "1.3.5.1",
   "description": "mbed HAL module for STM32F4 microcontrollers",
   "keywords": [
     "mbed",
@@ -22,8 +22,8 @@
     "mbed-hal-st-stm32f4"
   ],
   "dependencies": {
-    "uvisor-lib": ">=1.0.0,<3.0.0",
-    "mbed-hal-st-stm32cubef4": "^1.0.0",
+    "uvisor-lib": "he2she/uvisor-lib#v2.1.2",
+    "mbed-hal-st-stm32cubef4": "he2she/mbed-hal-st-stm32cubef4#v1.2.0",
     "mbed-hal": "*"
   },
   "targetDependencies": {
@@ -31,7 +31,7 @@
       "mbed-hal-st-stm32f401re": "~0.4.0"
     },
     "stm32f429zi-no-inherit": {
-      "mbed-hal-st-stm32f429zi": "^1.0.0"
+      "mbed-hal-st-stm32f429zi": "he2she/mbed-hal-st-stm32f429zi#v1.1.0"
     },
     "stm32f439zi-no-inherit": {
       "mbed-hal-st-stm32f429zi": "^1.0.0"
